@@ -1,6 +1,6 @@
 set -o errexit
 
-#poetry install
+poetry install
 pip install -r requirements.txt
 
 python manage.py collectstatic --noinput
